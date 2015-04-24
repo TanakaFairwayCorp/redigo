@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/garyburd/redigo/internal/redistest"
-	"github.com/garyburd/redigo/redis"
+	"github.com/blockcypher/redigo/internal/redistest"
+	"github.com/blockcypher/redigo/redis"
 )
 
 func publish(channel, value interface{}) {
