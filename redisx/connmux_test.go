@@ -19,9 +19,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/blockcyper/redigo/internal/redistest"
-	"github.com/blockcyper/redigo/redis"
-	"github.com/blockcyper/redigo/redisx"
+	"github.com/blockcypher/redigo/internal/redistest"
+	"github.com/blockcypher/redigo/redis"
+	"github.com/blockcypher/redigo/redisx"
 )
 
 func TestConnMux(t *testing.T) {

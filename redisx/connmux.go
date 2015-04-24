@@ -18,8 +18,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/blockcyper/redigo/internal"
-	"github.com/blockcyper/redigo/redis"
+	"github.com/blockcypher/redigo/internal"
+	"github.com/blockcypher/redigo/redis"
 )
 
 // ConnMux multiplexes one or more connections to a single underlying
